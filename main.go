@@ -9,9 +9,9 @@ import (
 
 	_ "github.com/mattn/go-sqlite3"
 
-	"NetTracer/controllers"
-	"NetTracer/models"
-	"NetTracer/util"
+	"controllers"
+	"models"
+	"util"
 
 	"github.com/gin-gonic/gin"
 )

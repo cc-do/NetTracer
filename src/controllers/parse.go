@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"regexp"
 
-	"NetTracer/models"
-	"NetTracer/util"
 	"fmt"
+	"models"
 	"strconv"
 	"strings"
+	"util"
 
 	"github.com/gin-gonic/gin"
 )

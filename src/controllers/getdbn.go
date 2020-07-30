@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"NetTracer/util"
 	"net/http"
+	"util"
 
 	"github.com/gin-gonic/gin"
 )

@@ -1,8 +1,8 @@
 package models
 
 import (
-	"NetTracer/util"
 	"database/sql"
+	"util"
 
 	"sort"
 	"strconv"
@@ -15,6 +15,7 @@ import (
 
 var DB *sql.DB
 var graph *gographviz.Graph
+
 var service_ip string
 var service_port int
 var client_ip string

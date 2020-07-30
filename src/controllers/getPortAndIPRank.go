@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"NetTracer/models"
+	"models"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
